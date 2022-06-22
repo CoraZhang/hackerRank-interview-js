@@ -1,0 +1,17 @@
+//Function Description
+
+//Complete the climbingLeaderboard function in the editor below.
+
+//climbingLeaderboard has the following parameter(s):
+
+//int ranked[n]: the leaderboard scores
+//int player[m]: the player's scores
+//Returns
+
+//int[m]: the player's rank after each new score
+
+- ranked array passed in is sorted
+- Loop through player, compare values, stop until ranked[i]>= player[i]
+- then push the index of i into the new rank array
+- ranked in decresing
+- player in increasing
